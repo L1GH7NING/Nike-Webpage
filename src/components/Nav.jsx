@@ -7,7 +7,7 @@ const Nav = () => {
   const [menu, setMenu] = useState(false);
 
   return (
-    <header className='padding-x py-8 absolute z-10 w-full'>
+    <header className='padding-x py-8 absolute z-50 w-full'>
       <nav className='flex justify-between items-center max-container'>
         <a href="/">
           <img src={headerLogo} alt="Logo" width={130} height={29} />
@@ -31,7 +31,7 @@ const Nav = () => {
           />
         </div>
         {menu && (
-          <div className='min-w-sm  bg-gray-100 absolute top-24 right-16 rounded-md'>
+          <div className='min-w-sm  bg-gray-100 absolute top-24 right-4 z-50 rounded-md'>
             <ul className='flex flex-col items-center p-16 justify-center gap-8'>
               {navLinks.map((item) => (
                 <li key={item.label}>
