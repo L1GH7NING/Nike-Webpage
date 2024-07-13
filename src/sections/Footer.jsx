@@ -1,7 +1,6 @@
 import React from 'react'
 import { footerLogo } from '../assets/images'
 import { footerLinks, socialMedia } from '../constants'
-import { div } from 'three/examples/jsm/nodes/Nodes.js'
 import { copyrightSign } from '../assets/icons'
 
 const Footer = () => {
