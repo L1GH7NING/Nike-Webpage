@@ -4,7 +4,8 @@ import {Link} from 'react-router-dom'
 
 const PopularProductCard = ({id, imgURL, name, price, rating}) => {
   return (
-    <Link to = {id} className='flex flex-1 flex-col w-full max-sm:w-full'>
+    <Link to = {id} className='flex flex-1 flex-col w-full max-sm:w-full items-center'>
+      <div>
       <img src={imgURL} alt={name} 
         className='w-[280px] h-[280px]'
       />
@@ -16,6 +17,8 @@ const PopularProductCard = ({id, imgURL, name, price, rating}) => {
       </div>
       <h3 className='mt-2 text-2xl leading-normal font-semibold font-palanquin'>{name}</h3>
       <p className='mt-2 font-semibold font-montserrat text-coral-red text-2xl leading-normal'>{price}</p>
+      </div>
+      
     </Link>
   )
 }

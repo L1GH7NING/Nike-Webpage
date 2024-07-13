@@ -17,7 +17,7 @@ const IndividualPage = () => {
         />
       </div>
       <div className='relative xl:w-2/5 flex flex-col justify-center items-start w-full max-xl:padding-x pt-28'>
-        <h1 className='mt-10 font-palanquin text-8xl max-sm:text-[72px] max-sm:leading-[82] font-bold'>
+        <h1 className='mt-10 font-palanquin text-8xl max-sm:text-[72px] font-bold'>
           <span className='relative z-10 pr-10'>
               {shoe.name}
           </span>
